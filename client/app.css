@@ -1,0 +1,121 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image.jpg');
+}
+.card{
+    background-color: white ;
+    border-radius: 10px;
+    margin-top: 4.4%;
+    height: 90vh;
+    width: 90vh;
+}
+.value{
+    margin: 10px ;
+    
+}
+#price{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: normal;
+    padding-left: 20px;
+}
+#in{
+    padding-left: 30px;
+}
+input{
+    width: 95%;
+    height: 5vh;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+
+.location{
+    width: 95%;
+    height: 5vh;
+    border-radius: 5px;
+    border-width: 0px;
+    
+}
+#loc{
+    padding-left: 30px;
+}
+
+.submit{
+    width: 93%;
+    height: 6vh;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: rgb(92, 92, 185);
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.result{
+
+        background: #dcd686;
+		width: 76%;
+		border: 0;
+		margin-left: 65px;
+		box-sizing: border-box;
+		font-size: 15px;
+		height: 45px;
+		text-align: center;
+}
+
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+    margin-left: 30px;
+}
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+.switch-field label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 3;
+    width: 30px;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #a5dc86;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
