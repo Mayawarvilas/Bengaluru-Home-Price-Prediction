@@ -1,4 +1,5 @@
 A machine learning project that predicts house prices in Bengaluru using real estate attributes such as location, square footage, number of bedrooms, and bathrooms. The project covers the full ML pipeline — data cleaning, feature engineering, model building, evaluation, and optional deployment using Flask or Streamlit.
+
 🧠 Modeling Approach
 
 Several algorithms were experimented with:
